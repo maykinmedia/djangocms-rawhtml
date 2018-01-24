@@ -22,7 +22,7 @@ Installation
 
     INSTALLED_APPS = (
         ...
-        'djangocms-rawhtml',
+        'djangocms_rawhtml',
         ...
     )
 
