@@ -13,7 +13,12 @@ a default ``TextField``.
 Installation
 ------------
 
-1. Add to your ``INSTALLED_APPS`` (in ``settings.py``):
+1. Instal via pip::
+
+    pip install git+https://github.com/maykinmedia/djangocms-rawhtml.git
+
+2. Add to your `INSTALLED_APPS` (in `settings.py`)::
+
 
     INSTALLED_APPS = (
         ...
@@ -21,8 +26,10 @@ Installation
         ...
     )
 
-2. Run migrations:
+
+3. Run migrations::
 
     python manage.py migrate djangocms_rawhtml
 
-3. "Raw HTML" should now be available as a plugin in the CMS!
+4. *"Raw HTML"* should now be available as a plugin in the CMS!
+    **RawHTMLPluginPublisher**
