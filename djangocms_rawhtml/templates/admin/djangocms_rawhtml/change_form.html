@@ -20,8 +20,43 @@
                         lineWrapping: true
                     });
                 });
+                $('textarea#id_body_left').each(function(idx, el){
+                    CodeMirror.fromTextArea(el, {
+                        lineNumbers: true,
+                        mode: 'htmlmixed',
+                        lineWrapping: true
+                    });
+                });
+                $('textarea#id_body_right').each(function(idx, el){
+                    CodeMirror.fromTextArea(el, {
+                        lineNumbers: true,
+                        mode: 'htmlmixed',
+                        lineWrapping: true
+                    });
+                });
+                $('textarea#id_body_middle').each(function(idx, el){
+                    CodeMirror.fromTextArea(el, {
+                        lineNumbers: true,
+                        mode: 'htmlmixed',
+                        lineWrapping: true
+                    });
+                });
+                $('textarea#id_body_middle_left').each(function(idx, el){
+                    CodeMirror.fromTextArea(el, {
+                        lineNumbers: true,
+                        mode: 'htmlmixed',
+                        lineWrapping: true
+                    });
+                });
+                $('textarea#id_body_middle_right').each(function(idx, el){
+                    CodeMirror.fromTextArea(el, {
+                        lineNumbers: true,
+                        mode: 'htmlmixed',
+                        lineWrapping: true
+                    });
+                });
             });
-        })();        
+        })();
     </script>
 {% endblock %}
 
